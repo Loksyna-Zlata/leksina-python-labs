@@ -1,0 +1,8 @@
+import pyramid
+
+a = float(input("Введіть a: "))
+b = float(input("Введіть b: "))
+h = float(input("Введіть h: "))
+
+print("Об'єм:", pyramid.volume(a, b, h))
+print("Площа поверхні:", pyramid.area(a, b, h))
